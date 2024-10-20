@@ -1,13 +1,13 @@
 
-# myfirstattempt
+# ReadMe Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
-this is my first attempt
+This project is intended to create a ReadMe file using inputs provided through a terminal interface.
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)
@@ -19,25 +19,26 @@ this is my first attempt
 
 ## Installation
 
-you need to install this by cloning from github
+To install this project, you can access the GitHub repository linked in the "Questions" section below. From there, clone the repository to install for personal use.
 
 ## Usage
 
-you can use this to create a readme
+To use this project, after cloning, you can run the code in index.js by entering `node index.js` in the terminal for that project. You'll be prompted by several questions to fill in the sections of the ReadMe. When completed with the questions, the ReadMe will be generated and added to the project.
 
 ## License
 
-MIT
+This application is covered under the MIT license.
 
 ## Contributing
 
-if you want to contribute, start by cloning the project
+There are no restrictions on contribution. Anyone may submit pull requests to the main branch of this project.
 
 ## Tests
 
-if you need to test (after cloning and making changes), use 'node index.js'
+The test instructions are the same as the usage instructions. 
 
 ## Questions
 
-GitHub: [sinnema1](https://github.com/sinnema1)
-Email: test@yahoo.com
+- Walkthrough Video: 
+- GitHub: [Sinnema1](https://github.com/Sinnema1)
+- You can reach me with additional questions at test@testl.com.

@@ -11,7 +11,7 @@ ${licenseBadge}
 
 ${response.description}
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)
@@ -31,7 +31,7 @@ ${response.usage}
 
 ## License
 
-${response.license}
+This application is covered under the ${response.license} license.
 
 ## Contributing
 
@@ -43,8 +43,9 @@ ${response.testSteps}
 
 ## Questions
 
-GitHub: [${response.github}](https://github.com/${response.github})
-Email: ${response.email}
+- Walkthrough Video: 
+- GitHub: [${response.github}](https://github.com/${response.github})
+- You can reach me with additional questions at ${response.email}.
 `;
 
 // Prompt the user and write the README file
@@ -84,7 +85,7 @@ inquirer
             type: 'list',
             message: 'Which license are you using?',
             name: 'license',
-            choices: ["MIT", "other1", "other2", "other3"]
+            choices: ["MIT", "ISC", "Mozilla", "IBM"]
         },
         {
             type: 'input',
@@ -102,12 +103,12 @@ inquirer
         let licenseBadge;
         if (response.license === "MIT") {
             licenseBadge = "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-        } else if (response.license === "other1") {
-            licenseBadge = "otherURL1";
-        } else if (response.license === "other2") {
-            licenseBadge = "otherURL2";
-        } else if (response.license === "other3") {
-            licenseBadge = "otherURL3";
+        } else if (response.license === "ISC") {
+            licenseBadge = "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)";
+        } else if (response.license === "Mozilla") {
+            licenseBadge = "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+        } else if (response.license === "IBM") {
+            licenseBadge = "[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)";
         }
 
         // Generate the README content
