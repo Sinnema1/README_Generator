@@ -1,5 +1,5 @@
 
-# ReadMe Generator
+# README Generator
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -35,10 +35,10 @@ There are no restrictions on contribution. Anyone may submit pull requests to th
 
 ## Tests
 
-The test instructions are the same as the usage instructions. 
+The test instructions are the same as the usage instructions.
 
 ## Questions
 
 - Walkthrough Video: 
 - GitHub: [Sinnema1](https://github.com/Sinnema1)
-- You can reach me with additional questions at test@testl.com.
+- You can reach me with additional questions at test@test.com.
