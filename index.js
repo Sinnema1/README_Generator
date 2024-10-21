@@ -115,7 +115,7 @@ inquirer
         const readmeContent = generateReadme(response, licenseBadge);
 
         // Write the README file
-        fs.writeFile('README.md', readmeContent, (err) => 
+        fs.writeFile('SAMPLE.md', readmeContent, (err) => 
             err ? console.error(err) : console.log('README created!')
         );
     });
